@@ -38,9 +38,9 @@ jobs:
     runs-on: self-hosted
     needs: build
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-      - name: Submit Maven Dependency Tree
-        uses: advanced-security/maven-dependency-submission-action@v1
+    - name: Submit Maven Dependency Tree
+      uses: advanced-security/maven-dependency-submission-action@v1
 
