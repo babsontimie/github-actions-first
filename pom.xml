@@ -557,13 +557,13 @@
             <url>http://192.168.0.170:8081/repository/maven-snapshots</url>
         </snapshotRepository>
    </distributionManagement>
+
+    <repositories>
         <repository>
             <id>maven-releases</id>
             <name>maven-releases</name>
             <url>http://192.168.0.170:8081/repository/maven-releases</url>
       </repository>
-
-    <repositories>
         <repository>
             <id>repository.spring.milestone</id>
             <name>Spring Milestone Repository</name>
